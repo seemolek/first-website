@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> new page </title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <h1> making new pages</h1>
+    
+    <a href="index.html" target="_blank">Homepage</a>
+     <h2> making lists </h2>
+    <ul>
+        <li>hey</li>
+        <li>this</li>
+        <li>is</li>
+        <li>a</li>
+        <li>list</li>
+    </ul>
+
+</body>
+</html>
