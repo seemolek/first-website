@@ -1,0 +1,287 @@
+/* body backgroundcolor #FFA19C is a light shade of red that has a pinkish tinge to it. 
+h1 background color #FFCEB9 is an even lighter pink. 
+h2 background color #CE84FF is a pastel purple.
+h4 background color #BBE4FF is a pastel blue.
+
+The overall color scheme is pastels that match the topic of the webpage and give it a welcoming
+kawaii theme.
+
+*/
+
+body {
+	background-color: #FFA19C;
+	font-family: "Helvetica", "sans-serif"; 
+	}
+
+h1 {
+	color:#121212;
+	background-color:#FFCEB9;
+	padding: 5px;
+	}
+	
+h2 {
+	color:#121212;
+	background-color:#CE84FF;
+	border: 2px solid #FFCEB9;
+	padding: 5px;
+	}
+	
+h4 {
+	color:#121212;
+	background-color:#BBE4FF;
+	border: 2px solid #F7FF90;
+	padding: 5px;
+	}
+
+div.emphasis {
+	color:#FFA19C;
+	background-color:#22321A;
+}
+
+div.list {
+	color:#000000;
+	background-color:#FF8B2A;
+}
+
+span.remind {
+	background-color: #EFEFEF;
+	}
+
+span.tip {
+	color:#000000;
+	background-color: #FFCEB9;
+}
+
+.center_text {
+	text-align:center;
+}
+
+/******************************************************
+    Home Page Links 
+********************************************************/
+a.basepage:link {
+  color: #A2E594;
+}
+a.basepage:visited {
+  color: #9996FD;
+}
+a.basepage:hover {
+  color: #FEDCEC;
+  text-decoration: none;
+}
+a.basepage:active {
+  color: #96FDB8;
+  font-weight: bold;
+  text-decoration: none;
+}
+/******************************************************
+    HW Links 
+********************************************************/
+a.hwpage:link {
+  color: #54C6CC;
+}
+a.hwpage:visited {
+  color: #C45D43;
+}
+a.hwpage:hover {
+  color: #FEDCEC;
+  text-decoration: none;
+}
+a.hwpage:active {
+  color: #96FDB8;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/**************************************************
+    Button CS for Homework Page Links
+***************************************************/
+a.button:link, a.button:visited {
+  display: inline-block;
+  background-color: #BDA0FE;
+  color: #FFFFFF;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+a.button:hover, a.buttonlink:active {
+  background-color: #9C9BFD;
+}
+/**********************************************
+    Vertical NAV for links on homework page
+************************************************/
+ul.verticalnav {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 200px;
+  background-color: #FEB9D7;
+}
+ul.verticalnav li a {
+  color: #000000;
+  padding: 8px;
+  text-decoration: none;
+  display: block;
+}
+ul.verticalnav li a:hover {
+  background-color: #D3FEA0;
+}
+
+/********************************************
+	Horizontal NAV for links on homepage
+*********************************************/
+ul.horiznav {
+  list-style-type: none;  /* a bit of magic - turns off the bullets */
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #CE84FF;
+  font-weight: bold;
+}
+
+ul.horiznav li {
+  float: left;    /* a bit of magic - makes list horizontal - explained in different lesson */
+}
+
+ul.horiznav li a {
+  color: #FFFFFF;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  display: block;  /* a bit of magic - turns anchor into block element to fill up entire list item */
+}
+
+ul.horiznav li a:hover {
+  background-color: #D3FEA0;
+}
+
+ /* This selector changes the box-sizing for all blocks in the page. */
+      * { box-sizing: border-box; } /* Causes block width to include padding and border. */
+
+     body {
+        margin: 0px;
+        
+        
+        background-image: url("images/aesthetic.png");
+        background-repeat: no-repeat;         /* Prevents Tiling */
+        background-position: center center;   /* Horiz  Vertical */
+        
+        background-size: cover;       /* Stretch it to fill the browser window if necessary. */
+        
+        /* This is important as you will see if you remove it. */
+        background-attachment: fixed; 
+        
+        /* 
+          You usually have to play with the opacity setting to get the desired look.
+          Try 1.0 or other levels of opacity to see the effect.
+        */
+        opacity: 0.9;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      /********************************************************************
+      Styles for Page Layout Structure.
+      ********************************************************************/
+
+      #page_wrapper {
+        width: 1000px;
+        padding: 0px;
+        margin: 0px auto 0px auto;  /* centers block */
+      }
+
+      #page_header {
+        height: 100px;
+        background-color: #9C9BFD;
+        padding: 5px;
+      }
+
+      #page_sub_header {
+        height: 30px;
+        background-color: #BBE4FF;
+        padding: 5px;
+        text-align: center;
+      }
+
+      #page_content_top {
+        min-height: 100px;
+        background-color: #FFCEB9;
+        padding: 5px;
+      }
+
+      #column_wrapper {
+        min-height: 400px;
+        padding: 0px;
+      }
+
+      #page_footer {
+        height: 100px;
+        background-color: #9C9BFD;
+        padding: 5px;
+      }
+div.curved {
+		padding: 10px;
+		background-color:#FFCEB9;
+		font-weight: bold; 
+		border-radius: 25px;
+		}
+      /********************************************************************
+      Styles for Columns
+      ********************************************************************/
+
+      .clear_float {
+        clear: both;
+      }
+
+      div.column_50 {
+        float: left;
+        width: 50%;
+        margin: 0px;
+        padding: 5px;
+      }
+
+      div.column_33 {
+        float: left;
+        width: 33.3333%;  /* This only works for %, not pixel values. */
+                          /* Percentages are rounded to the nearest pixel. */
+        margin: 0px;
+        padding: 5px;
+      }
+
+      div.column_content {
+        padding: 5px;
+        min-height: 200px;
+        border: 1px solid #F7FF90;
+      }
+
+      /********************************************************************
+      Styles for Display Blocks
+      ********************************************************************/
+
+      div.header_banner {
+        width: 50%;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: #9C9BFD;
+        font-weight:bold;
+        text-align: center;
+        margin: 25px auto 0px auto;  /* centers block */
+      }
+
+      div.display_box_top  {
+        font-weight: bold;
+        color: #000000;
+        background-color: #D3FEA0;
+        padding: 5px;
+        text-align: center;
+      }
+
+      div.display_box_bottom  {
+         background-color:  #9C9BFD;
+         border:	2px solid #F7FF90;
+         padding: 10px;
+      }
